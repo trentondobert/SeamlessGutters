@@ -46,23 +46,6 @@ function Services() {
 			</div>
 		</div>
 
-		<div class="Service">
-			<div class="text">
-				<h1>Roof Repair</h1>
-				<p> Our roof repair service is your solution to any roofing issues you may encounter. 
-				Whether it's a minor leak, damaged shingles, or more extensive structural damage, 
-				our experienced team is here to provide timely and effective repairs to protect your home or business. 
-				We conduct thorough inspections to identify the root cause of the problem and offer tailored repair solutions 
-				that restore the integrity and functionality of your roof. With our expertise and attention to detail, you 
-				can trust us to deliver lasting repairs that withstand the elements and ensure the long-term durability of your roof. 
-				Don't let roofing problems escalate into costly damage—contact us today for reliable roof repair services!
-				</p>
-				<button class="modern-button" type="submit" >Request Service</button>
-			</div>
-			<div class="image">
-				<img src={windowImage} alt="Roof Repair Image"></img>
-			</div>
-		</div>
 	  </div>	  
 	);
   
