@@ -16,6 +16,13 @@
 h1 {
 	font-size: 55px;
 }
+
+.backgroundDiv {
+	background-image: url('/src/Images/Work/cleaningBackground.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .sectionDiv {
 	overflow: hidden; /* Clear float */
 	background-color: #0C3E4A;

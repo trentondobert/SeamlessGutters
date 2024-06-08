@@ -7,6 +7,11 @@
 	margin-bottom: 15px;
 }
 
+.Service-alternate {
+    flex-direction: row-reverse;
+}
+
+
 .text {
     flex: 1;
     padding: 20px;

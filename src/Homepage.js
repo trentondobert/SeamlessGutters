@@ -2,22 +2,25 @@
 import React from 'react';
 import './css/Home.css'
 import ImageGallery from "react-image-gallery";
-import DaleImage from './Images/Trenton.jpg';
-import qrImage from './Images/randomQR.png'
+import DaleImage from './Images/Dale.jpg';
+
 
 function Homepage() {
   return (
-    <div class="homepage">
-      <h1>Seamless Gutters</h1>
-      <div>
-          <img id="QRcode" src={qrImage}></img>
-          <p>Scan me for Discount!</p>
+    <div className="homepage">
+      <div className="">
+        <h1>Seamless Gutters</h1>
+        {/*       <div>
+            <img id="QRcode" src={qrImage}></img>
+            <p>Scan me for Discount!</p>
+        </div> */}
+        <div className="carousel-container">
+          <ImageCarousel />
+        </div>
       </div>
-      <div className="carousel-container">
-	      <ImageCarousel />
-      </div>
-      <div class="sectionDiv">
-        <div class="content">
+
+      <div className="sectionDiv">
+        <div className="content">
           <h1>About Us</h1>
           <p>
             Welcome to Seamless Gutters, where impeccable service meets the expertise of Dale, your premier gutter cleaning specialist. 
@@ -31,8 +34,8 @@ function Homepage() {
             Schedule your appointment today and experience the unparalleled service that defines Seamless Gutters.
           </p>
         </div>
-        <div class="image-container">
-          <img id="portrait" src={DaleImage} alt="Image of Dale Anderson"></img>
+        <div className="image-container">
+          <img id="portrait" src={DaleImage} alt="Dale Anderson"></img>
         </div>
       </div>
     </div>

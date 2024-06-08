@@ -5,6 +5,17 @@
 	color: white;
   }
   
+  .large-textarea {
+    width: 100%; /* Full width of the parent container */
+    height: 200px; /* Height of the textarea */
+    padding: 10px; /* Padding inside the textarea */
+    font-size: 16px; /* Adjust the font size if needed */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
   .contact-form {
 	width: 45%;
   }

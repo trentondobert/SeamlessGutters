@@ -1,6 +1,5 @@
 import React from 'react';
 import "./css/Services.css"
-import logoImage from './Images/seamlessLogo.jpg';
 import underImage from './Images/Work/undergutter.jpg';
 import dirtyImage from './Images/Work/dirtygutter.jpg';
 import windowImage from './Images/Work/window.jpg';
@@ -24,10 +23,10 @@ function Services() {
 				<button class="modern-button" type="submit" >Request Service</button>
 			</div>
 			<div class="image">
-				<img src={underImage} alt="Gutter Installation Image"></img>
+				<img src={underImage} alt="Gutter Installation"></img>
 			</div>		
 		</div>
-		<div class="Service">
+		<div class="Service Service-alternate">
 			<div class="text">
 				<h1>Gutter Cleaning</h1>
 				<p>Our gutter cleaning service ensures that your gutters remain free from debris and blockages, 
@@ -42,7 +41,30 @@ function Services() {
 				<button class="modern-button" type="submit" >Request Service</button>
 			</div>
 			<div class="image">
-				<img src={dirtyImage} alt="Gutter Cleaning Image"></img>
+				<img src={dirtyImage} alt="Gutter Cleaning"></img>
+			</div>
+		</div>
+		<div class="Service">
+			<div class="text">
+				<h1>Home Repair</h1>
+				<p>At Seamless, we specialize in providing comprehensive home repair services tailored to meet the unique needs of every homeowner.
+					Whether you're dealing with a leaky faucet, a faulty electrical outlet, or a broken window, 
+					we have the expertise and tools to handle it all. Our skilled technicians 
+					are trained to diagnose and fix a wide range of household issues promptly and efficiently. 
+					We pride ourselves on delivering quality workmanship, using only 
+					the best materials to ensure that your repairs stand the test of time.
+					We understand how stressful home repairs can be, 
+					which is why we aim to make the process as smooth and hassle-free as possible. 
+					From the moment you contact us, we are committed to providing exceptional customer service, 
+					clear communication, and reliable scheduling. 
+					Our team works closely with you to understand your needs and provide solutions that fit your budget. 
+					Trust us to keep your home safe, functional, and looking its best. At Seamless, 
+					we are your trusted partner in maintaining the comfort and integrity of your home.
+				</p>
+				<button class="modern-button" type="submit" >Request Service</button>
+			</div>
+			<div class="image">
+				<img src={windowImage} alt="Gutter Cleaning"></img>
 			</div>
 		</div>
 

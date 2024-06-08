@@ -16,7 +16,7 @@ function Contact() {
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData((prevState) => ({ ...prevState, [name]: value }));
-    console.log("hey");
+
   };
 
   const handleSubmit = (event) => {
@@ -46,18 +46,18 @@ function Contact() {
             <input type="tel" id="phone" name="phone" onChange={handleChange} />
           </div>
           <div className="form-group">
-            <label htmlFor="description">Description</label>
-            <textarea id="description" name="description" />
+            <label htmlFor="description">Message</label>
+            <textarea id="description" name="description" className="large-textarea" />
           </div>
           <button type="submit" onClick={console.log("Hello Bud")}>Submit</button>
         </form>
       </div>
       <div className="business-info">
-        <h1>Seamless Gutters Direct Contact</h1>
+        <h1>Seamless Direct Contact</h1>
         <p>Phone: 321-432-1348</p>
         <p>Email: anderson.bros@hotmail.com</p>
-        <p>Address: 123 Main St, City, State, ZIP</p>
-        <img src={locationImage} alt="Seamless Gutters Image"></img>
+        <p>Address: 4165 Dow rd Unit 21 Melbourne FL 32904</p>
+        <img src={locationImage} alt="Seamless Gutters"></img>
       </div>
     </div>
   );
